@@ -11,6 +11,9 @@ namespace App\PhpPatterns\action\Strategy;
 /**
  * 策略模式
  * 策略模式主要是定义了一系列算法，把他们封装起来，使他们可以互相替换。策略模式可以让算法独立于使用他们的对象变化
+ *
+ * 场景：
+ * 针对合同有不同的优惠策略，将不同的优惠策略封装起来，可以独立使用
  */
 class StrategyContext
 {

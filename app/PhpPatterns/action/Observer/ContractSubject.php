@@ -26,6 +26,8 @@ use SplObserver;
  * 被观察者Subject：主题角色将所有对观察者对象的引用保存在一个集合中，每个主题可以有任意多个观察者。 抽象主题提供了增加（attach）和删除(detach)观察者对象的接口。
  * 观察者Observer:为所有的具体观察者定义一个接口，在观察的主题发生改变时更新自己。
  *
+ * 场景：
+ * 用户观察到合同签订成功，在自己的合同计数属性上+1
  */
 class ContractSubject implements \SplSubject, ContractInterface
 {

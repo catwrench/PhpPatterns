@@ -8,8 +8,6 @@
 
 namespace App\PhpPatterns\struct\Adapter;
 
-use App\PhpPatterns\ContractInterface;
-
 //线上合同接口
 interface OnlineContractInterface extends ContractInterface
 {

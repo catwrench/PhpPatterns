@@ -8,7 +8,6 @@
 
 namespace App\PhpPatterns\action\Observer;
 
-use App\PhpPatterns\ContractInterface;
 use SplObserver;
 
 /**

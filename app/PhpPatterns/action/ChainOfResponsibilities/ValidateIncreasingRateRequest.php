@@ -6,14 +6,14 @@
  * Time: 10:22 下午
  */
 
-namespace App\PhpPatterns\struct\ChainOfResponsibilities;
+namespace App\PhpPatterns\action\ChainOfResponsibilities;
 
 use Illuminate\Http\Request;
 
 /**
- * 合同优惠条款验证器
+ * 合同计算递增率条款验证器
  */
-class ValidateDiscountRequest extends ChainOfResponsibilities
+class ValidateIncreasingRateRequest extends ChainOfResponsibilities
 {
     public function check(Request $request)
     {

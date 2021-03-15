@@ -6,7 +6,7 @@
  * Time: 10:33 下午
  */
 
-namespace App\PhpPatterns\struct\ChainOfResponsibilities;
+namespace App\PhpPatterns\action\ChainOfResponsibilities;
 
 use Illuminate\Http\Request;
 use Tests\TestCase;

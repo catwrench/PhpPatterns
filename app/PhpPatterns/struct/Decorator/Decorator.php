@@ -8,8 +8,6 @@
 
 namespace App\PhpPatterns\struct\Decorator;
 
-use App\PhpPatterns\ContractInterface;
-
 /**
  * 装饰器模式
  * 装饰器模式可以动态的为实例增加方法

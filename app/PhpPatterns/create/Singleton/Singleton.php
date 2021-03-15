@@ -10,7 +10,7 @@ namespace App\PhpPatterns\create\Singleton;
 
 /**
  * 单例模式
- * 单例模式被公认为是 反面模式，通常使用依赖注入模式，保以证可测试性和可维护性
+ * 单例模式被公认为是 反面模式，通常使用依赖注入模式替代单例模式，保以证可测试性和可维护性
  */
 class Singleton
 {

@@ -8,8 +8,6 @@
 
 namespace App\PhpPatterns\create\FactoryMethod;
 
-use App\PhpPatterns\ContractInterface;
-
 /**
  * 工厂方法模式
  * 工厂方法模式实现 S.O.L.I.D 中的依赖倒置原则，工厂本体可能只是一个接口，可以在它的子类用不同的方法来创建一个对象，

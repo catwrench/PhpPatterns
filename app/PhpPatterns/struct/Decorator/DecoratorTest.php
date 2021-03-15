@@ -8,7 +8,6 @@
 
 namespace App\PhpPatterns\struct\Decorator;
 
-use App\PhpPatterns\RentContract;
 use Tests\TestCase;
 
 class DecoratorTest extends TestCase

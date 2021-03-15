@@ -8,7 +8,6 @@
 
 namespace App\PhpPatterns\create\AbstractFactory;
 
-use App\PhpPatterns\ContractInterface;
 use Tests\TestCase;
 
 class AbstractFactoryTest extends TestCase

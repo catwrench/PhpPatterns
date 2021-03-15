@@ -9,8 +9,6 @@
 namespace App\PhpPatterns\create\StaticFactory;
 
 use App\Exceptions\BusinessException;
-use App\PhpPatterns\RentContract;
-use App\PhpPatterns\SalesContract;
 use Tests\TestCase;
 
 class StaticFactoryTest extends TestCase

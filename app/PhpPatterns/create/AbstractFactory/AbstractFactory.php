@@ -8,10 +8,6 @@
 
 namespace App\PhpPatterns\create\AbstractFactory;
 
-use App\PhpPatterns\ContractInterface;
-use App\PhpPatterns\RentContract;
-use App\PhpPatterns\SalesContract;
-
 /**
  * 抽象工厂模式
  * 抽象工厂模式和简单工厂模式的区别在于，抽象工厂不关心这些类是如何创建和运行的，通常他们都实现了相同的接口

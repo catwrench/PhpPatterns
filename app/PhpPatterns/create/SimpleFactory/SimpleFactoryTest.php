@@ -8,9 +8,6 @@
 
 namespace App\PhpPatterns\create\SimpleFactory;
 
-use App\PhpPatterns\create\StaticFactory\StaticFactory;
-use App\PhpPatterns\RentContract;
-use App\PhpPatterns\SalesContract;
 use Tests\TestCase;
 
 class SimpleFactoryTest extends TestCase

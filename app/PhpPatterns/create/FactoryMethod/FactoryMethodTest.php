@@ -8,9 +8,6 @@
 
 namespace App\PhpPatterns\create\FactoryMethod;
 
-use App\PhpPatterns\ContractInterface;
-use App\PhpPatterns\RentContract;
-use App\PhpPatterns\SalesContract;
 use Tests\TestCase;
 
 class FactoryMethodTest extends TestCase

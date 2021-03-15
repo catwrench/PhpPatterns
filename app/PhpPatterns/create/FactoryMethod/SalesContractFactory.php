@@ -8,9 +8,6 @@
 
 namespace App\PhpPatterns\create\FactoryMethod;
 
-use App\PhpPatterns\ContractInterface;
-use App\PhpPatterns\SalesContract;
-
 class SalesContractFactory implements FactoryMethod
 {
     public function createContract(): ContractInterface

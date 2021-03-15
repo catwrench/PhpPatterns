@@ -9,9 +9,6 @@
 namespace App\PhpPatterns\create\StaticFactory;
 
 use App\Exceptions\BusinessException;
-use App\PhpPatterns\ContractInterface;
-use App\PhpPatterns\SalesContract;
-use App\PhpPatterns\RentContract;
 
 /**
  * 静态工厂方法

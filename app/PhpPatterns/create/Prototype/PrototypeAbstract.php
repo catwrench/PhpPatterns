@@ -9,11 +9,7 @@
 namespace App\PhpPatterns\create\Prototype;
 
 /**
- * 原型模式
- * 相比于直接new一个对象，创建一个原型，然后克隆这个原型更节省资源
- *
- * 场景：
- * 比如产品今天加了个需求，支持批量向系统中导入10000份历史合同
+ * 合同导入抽象原型
  */
 abstract class PrototypeAbstract
 {

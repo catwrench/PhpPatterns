@@ -11,12 +11,7 @@ namespace App\PhpPatterns\action\ChainOfResponsibilities;
 use Illuminate\Http\Request;
 
 /**
- * 责任链模式
- * 创建一个对象调用链，如果当前对象无法处理，会继续交给下个节点处理，直到处理完成
- *
- * 场景：
- * 一份租赁合同有租期条款，有优惠条款，有租金递增条款，
- * 相应的也需要按顺序验证对应的请求参数，我们将通过责任链验证所有请求参数
+ * 合同责任链抽象类，提供了添加节点方法，以及每个节点需要实现check方法
  */
 abstract class ChainOfResponsibilities
 {

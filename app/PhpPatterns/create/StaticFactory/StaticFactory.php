@@ -11,13 +11,7 @@ namespace App\PhpPatterns\create\StaticFactory;
 use App\Exceptions\BusinessException;
 
 /**
- * 静态工厂方法
- *
- * 说明：只使用一个静态方法来创建所有类型对象， 此方法通常被命名为 factory 或 build
- *
- * 注意：
- * 1、静态意味着全局状态，因为它不能被模拟进行测试，所以它是有弊端的
- * 2、不能被分类或模拟或有多个不同的实例。
+ * 合同静态工厂
  */
 final class StaticFactory
 {

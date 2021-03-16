@@ -10,6 +10,10 @@ namespace App\PhpPatterns\create\Singleton;
 
 use Tests\TestCase;
 
+/**
+ * 单例模式
+ * 单例模式被公认为是 反面模式，通常使用依赖注入模式替代单例模式，保以证可测试性和可维护性
+ */
 class SingletonTest extends TestCase
 {
     //测试通过单例创建的两个实例是否相等

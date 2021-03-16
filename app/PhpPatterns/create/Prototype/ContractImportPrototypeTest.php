@@ -10,6 +10,13 @@ namespace App\PhpPatterns\create\Prototype;
 
 use Tests\TestCase;
 
+/**
+ * 原型模式
+ * 相比于直接new一个对象，创建一个原型，然后克隆这个原型更节省资源
+ *
+ * 场景：
+ * 比如产品今天加了个需求，支持批量向系统中导入10000份历史合同
+ */
 class ContractImportPrototypeTest extends TestCase
 {
     //测试合同导入原型

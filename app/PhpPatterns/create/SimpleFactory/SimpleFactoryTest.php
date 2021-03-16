@@ -10,6 +10,10 @@ namespace App\PhpPatterns\create\SimpleFactory;
 
 use Tests\TestCase;
 
+/**
+ * 简单工厂模式
+ * 和静态工厂模式最大的区别是，它不是静态的，所以你可以拥有多个工厂，也可以为工厂创建子类
+ */
 class SimpleFactoryTest extends TestCase
 {
     //测试是否能创建租赁合同

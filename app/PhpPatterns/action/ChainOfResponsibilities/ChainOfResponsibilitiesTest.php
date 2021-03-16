@@ -11,6 +11,14 @@ namespace App\PhpPatterns\action\ChainOfResponsibilities;
 use Illuminate\Http\Request;
 use Tests\TestCase;
 
+/**
+ * 责任链模式
+ * 创建一个对象调用链，如果当前对象无法处理，会继续交给下个节点处理，直到处理完成
+ *
+ * 场景：
+ * 一份租赁合同有租期条款，有优惠条款，有租金递增条款，
+ * 相应的也需要按顺序验证对应的请求参数，我们将通过责任链验证所有请求参数
+ */
 class ChainOfResponsibilitiesTest extends TestCase
 {
     //测试责任链

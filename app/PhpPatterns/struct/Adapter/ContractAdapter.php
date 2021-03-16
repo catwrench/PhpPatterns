@@ -9,13 +9,8 @@
 namespace App\PhpPatterns\struct\Adapter;
 
 /**
- * 适配器模式
- * 目的是将一个类的接口转换为可使用的兼容接口，让原本因接口不兼容，不能一起工作的类可以一起工作。
- *
- * 这里我们有两种合同：
- * 线上合同接口：create()创建合同，electronicSignature()电子签名
- * 线下合同接口：create()创建合同，manualSignature()人工签名
- * 突然一天要求线下合同也需要录入线上，进行电子签名了，这时候就需要一个适配器
+ * 合同适配器
+ * 适配器自身实现了在线合同接口，并包装了线下合同，以完成线下合同对线上合同的适配
  */
 class ContractAdapter implements OnlineContractInterface
 {
